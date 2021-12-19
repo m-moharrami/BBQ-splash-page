@@ -8,9 +8,58 @@ body {
     text-align: center;
 }
 
+
+/* ==============
+Typography
+============== */
+
 h1 {
+    color: #FFF;
     font-size: 2.25rem;
     font-weight: 300;
+    margin: 2em 0;
+}
+
+h1 + p {
+    color: #F18119;
+    font-weight: 900;
+    font-size: 1.3125rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.3125rem;
+}
+
+h2 + p {    /* this selector only selects the paragraph right after h2 */
+    color: #F18119;
+    font-weight: 900;
+}
+
+.top-text {
+    color: #F18119;
+    font-size: 0.625rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    order: -1;
+}
+
+.fine-print {
+    font-size: 0.625rem;
+    letter-spacing: 1px;
 }
 
 strong { font-weight: 900; }
+
+
+/* ==============
+Intro section
+============== */
+
+.intro {
+    background-color: #404040;
+    background-image: url(/images/dark-ribs.jpg);
+    padding: 0 0.25em 1em;
+    display: flex;
+    flex-direction: column;
+}
