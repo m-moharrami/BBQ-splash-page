@@ -25,15 +25,19 @@ h1 + p {
     font-weight: 900;
     font-size: 1.3125rem;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h2 {
     font-size: 1.3125rem;
+    margin: 0;
 }
 
 h2 + p {    /* this selector only selects the paragraph right after h2 */
     color: #F18119;
     font-weight: 900;
+    margin-top: 0;
+    text-transform: uppercase;
 }
 
 .top-text {
@@ -63,3 +67,17 @@ Intro section
     display: flex;
     flex-direction: column;
 }
+
+
+/* ===================
+main-content section
+=================== */
+
+.main-content {
+    padding: 2em 1em;
+}
+
+/* h2 + p {
+    margin-top: -1em;
+    margin-bottom: 1.5em;
+} */
