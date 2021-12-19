@@ -5,6 +5,7 @@ body {
     font-family: 'Source San Pro', sans-serif;
     font-size: 1rem; /* doesn't matter if we don't write this line */
     color: #404040;
+    text-align: center;
 }
 
 h1 {
