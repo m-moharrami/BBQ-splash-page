@@ -1,0 +1,13 @@
+/*  font-family: 'Source Sans Pro', sans-serif;  */
+
+body {
+    margin: 0;
+    font-family: 'Source San Pro', sans-serif;
+    font-size: 1rem; /* doesn't matter if we don't write this line */
+    color: #404040;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 300;
+}
