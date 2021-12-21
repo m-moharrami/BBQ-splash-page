@@ -94,6 +94,33 @@ main-content section
 }
 
 
+/* ==========
+form
+=========== */
+
+.email-collector {
+    width: 80%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+.btn {
+    width: 100%;
+    border-radius: 5px;
+}
+
+input{
+    font-family: inherit;
+    text-align: inherit;
+    margin-bottom: 0.5em;
+    padding: 0.2em;
+    border: 1px solid #404040;
+}
+
+
+
 /* ==============
 media queries
 =============== */
