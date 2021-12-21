@@ -47,9 +47,13 @@ h2 + p {    /* this selector only selects the paragraph right after h2 */
 .top-text {
     color: #F18119;
     font-size: 0.625rem;
+    margin: 0;
+    padding-top: 2px;
     font-weight: 900;
     text-transform: uppercase;
     order: -1;
+    border-top: 3px solid #F18119;
+    border-image: linear-gradient(to left, #FF713B, #FFA51D) 1;
 }
 
 .fine-print {
