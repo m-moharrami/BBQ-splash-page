@@ -115,6 +115,12 @@ input{
     margin-bottom: 0.75em;
     padding: 0.25em;
     border: 1px solid #404040;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+input:focus {
+    transform: scale(1.03);
 }
 
 .btn {
@@ -131,6 +137,13 @@ input{
 .btn-primary {
     background: linear-gradient(to left, #FF713B, #FFA51D);
     color: #FFF;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    transform: scale(1.03);   
 }
 
 
